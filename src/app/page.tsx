@@ -120,16 +120,6 @@ export default function Home() {
           ))}
         </ol>
       </section>
-
-      <section className="mt-12 rounded-lg border border-border bg-surface p-6 text-sm text-muted sm:p-8">
-        <p>
-          <strong className="text-foreground">Research note:</strong>{" "}
-          StealthStego aims to reduce detectability relative to naive LSB
-          embedding, not to guarantee undetectability. The Steganalysis Lab
-          is provided to experimentally evaluate — not assume — the
-          improvement.
-        </p>
-      </section>
     </div>
   );
 }
